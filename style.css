@@ -30,6 +30,10 @@ body{
   justify-content:space-between;
   align-items: center;
   row-gap: 10px;
+  border-bottom: 2px solid #A63F03;
+
+
+
 }
 #kategori{
   width: 175px;
@@ -103,43 +107,63 @@ body{
   margin-right: 15px;
 }
 .header2{
-  width: 300px;
+  /* width: 100rem; */
   height: 100px;
   display: flex;
-  margin-left: 15%;
   gap: 90px;
   justify-content:space-between;
   align-items: center;
   padding: 20px 20px;
   font-size: 16px;
   cursor: pointer;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   text-align: center;
+  border-bottom: 2px solid #A63F03;
+  background-color: #F2C744;
 }
-.govde{
-  width: 350px;
-  height: 350px;
+.buton{
+  background-color: #F2C744;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ position:relative;
+}
+
+.categorySection{
+  /* width: 90%; */
+  /* height:800px; */
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  gap: 10px;
   background-color: #e6e1de;
   border-radius: 10px;
   box-shadow: 0px 0px 30px;
   position: relative;
 }
-.govde img {
+.anaresimler img {
   width: 290px;
   height: 280px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
   border-radius: 10px;
-  position:absolute;
+  position:relative;
   bottom: 20px;
   right: 20px;
+  gap: 20px;
+  /* padding: 1rem;
+  margin: 2rem; */
 }
 .resim {
+  width: 200px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
-  gap: 50px;
-  padding-bottom: 40px;
-  font-family: "Josefin Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
+  gap: 10px;
+  position:relative;
+  top: 0;
+  left: 0;
 }
