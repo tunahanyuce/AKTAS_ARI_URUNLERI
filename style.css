@@ -211,6 +211,7 @@ body {
 .resim img:hover {
   transform: scale(1.2); /* Resmi büyütme */
   z-index: 10; /* Resmi öne alma */
+  
 }
 .kargo {
   width: 100%;
@@ -224,4 +225,5 @@ body {
 }
 .kargo span {
   color: red;
+ 
 }
