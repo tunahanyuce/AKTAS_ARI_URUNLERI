@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -24,9 +24,9 @@ body {
   background-color: #eeecec;
   border-top-left-radius: 1px;
   /* border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px; */ */
-  box-shadow: 0px 0px 4px rgba(13, 13, 13, 1);
-  margin-right: 20px;
+  border-bottom-right-radius: 15px;
+  /* box-shadow: 0px 0px 4px rgba(13, 13, 13, 1); */
+  /* margin-right: 20px; */
 }
 .logo:hover {
   transform: scale(1.5);
@@ -80,7 +80,7 @@ body {
   margin-left: 30px;
 }
 .search img {
-  position: static;
+  position: absolute;
   top: 10px;
   left: 245px;
 }
@@ -118,25 +118,32 @@ body {
   /* width: 100rem; */
   height: 90px;
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding-left: 500px;
-  padding-right: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
   font-size: 16px;
   cursor: pointer;
   /* margin: 5px; */
-  border-radius: 5px;
   text-align: center;
   border-bottom: 2px solid #a63f03;
   background-color: #FEC6B5;
 }
 .buton {
-  background-color: #FE8D6D;
+
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position:relative; 
+  border: 1px solid #FE8D6D ;
+  border-radius: 25px;
+  padding: 10px 25px;
+  background-color: #FE8D6D;
+  color: black;
+  text-decoration: none;
 }
 
 .categorySection {
@@ -160,11 +167,12 @@ body {
   gap: 30px;
 }
 .anaresimler img {
-  width: 390px; /* Resimlerin genişliğini sabit tutar */
-  height: 380px; /* Resimlerin yüksekliğini sabit tutar */
+  width: 100%; /* Resimlerin genişliğini sabit tutar */
+  height: 400px; /* Resimlerin yüksekliğini sabit tutar */
   object-fit: cover; /* Resimler kutuya tam sığacak şekilde kırpılır */
   border-radius: 10px;
   top: 20px;
+  
 }
 /* width: 290px;
   height: 280px;
@@ -192,6 +200,17 @@ body {
   position: relative;
   top: 0;
   left: 0;
+}
+.resim img {
+  width: 100%;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resim img:hover {
+  transform: scale(1.2); /* Resmi büyütme */
+  z-index: 10; /* Resmi öne alma */
 }
 .kargo {
   width: 100%;
