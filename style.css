@@ -55,8 +55,11 @@ body {
   font-weight: 26px;
   font-style: normal;
   font-size: 18px;
+    border: 1px solid #a63f03;
 }
-
+/* .connection{
+  border: 2px solid #a63f03;
+} */
 .search {
   position: relative;
   display: flex;
@@ -72,6 +75,7 @@ body {
   background-color: #d9d9d9;
   border-style: none;
   border-radius: 5px;
+  border: 1px solid #a63f03;
   /* padding-left: 10px; */
 }
 .search input {
@@ -90,17 +94,19 @@ body {
   gap: 25px;
 }
 .tel {
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 16px;
   font-family: "Judson", serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
+  margin: 10px;
 }
 .iletisim {
   font-size: 15px;
   font-family: "Judson", serif;
   font-weight: 400;
   font-style: normal;
+  margin: 10px;
 }
 
 .kullanici {
@@ -118,17 +124,18 @@ body {
   /* width: 100rem; */
   height: 90px;
   display: flex;
-  gap: 20px;
-  justify-content: space-between;
+  flex: auto;
+  gap:20px;
+  justify-content:center;
   align-items: center;
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   /* margin: 5px; */
   text-align: center;
   border-bottom: 2px solid #a63f03;
-  background-color: #FEC6B5;
+  background-color: #FEC6B5;  
 }
 .buton {
 
